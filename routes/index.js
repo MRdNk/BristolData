@@ -6,7 +6,7 @@
 var fs = require('fs');
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Bristol Data JSON' });
 };
 
 exports.mortality = function (req, res) {
