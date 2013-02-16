@@ -10,10 +10,7 @@ exports.index = function(req, res){
 };
 
 exports.mortality = function (req, res) {
-
   fs.createReadStream('./data/mortality.json').pipe(res);
-
-  // res.json ()
 };
 
 exports.mortality_births_deaths = function (req, res) {
