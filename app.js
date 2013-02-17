@@ -30,6 +30,7 @@ app.configure('development', function(){
 app.get('/', routes.index);
 app.get('/mortality', routes.mortality);
 app.get('/mortality_births_deaths', routes.mortality_births_deaths);
+app.get('/bristol_wards_map', routes.bristol_wards_map);
 // app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

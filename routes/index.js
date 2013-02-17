@@ -16,3 +16,7 @@ exports.mortality = function (req, res) {
 exports.mortality_births_deaths = function (req, res) {
   fs.createReadStream('./data/mortality_births_deaths.json').pipe(res);  
 }
+
+exports.bristol_wards_map = function (req, res) {
+  fs.createReadStream('./data/bristol_wards.json').pipe(res);  
+}
